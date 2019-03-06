@@ -1,0 +1,96 @@
+<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background: rgba(98,119,97,1);">
+    <div class="container">
+      <!-- <a class="navbar-brand js-scroll-trigger" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a> -->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Life of Rizal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/novels" routerLinkActive="active">Novels & Poems</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" routerLink="/women" routerLinkActive="active">Rizal's Women</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+	  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+  	<div>
+  	<h1 id="title1">Rizal's Novels and Poems</h1>
+  	</div>
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Noli Me Tangere</h4>
+            <p class="text-black-50 mb-0">Noli Me Tángere (Latin for Touch me not) is a novel written by José Rizal, one of the national heroes of the Philippines, during the colonization of the country by Spain to describe perceived inequities of the Spanish Catholic priests and the ruling government.</p><hr>
+            <p class="text-black-50 mb-0">Originally written in Spanish, the book is more commonly published and read in the Philippines in either Tagalog or English. Together with its sequel, El Filibusterismo, the reading of Noli is obligatory for high school students throughout the country. The two novels are widely considered as the national epic of the Philippines and are performed in non-musical operas throughout the country.</p>
+          </div>
+        </div>
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="../assets/img/noli.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="../assets/img/elfili.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>El Filibusterismo</h4>
+            <p class="text-black-50 mb-0">El filibusterismo, also known by its English alternative title The Reign of Greed, is the second novel written by Philippine national hero José Rizal. It is the sequel to Noli me tangere and, like the first book, was written in Spanish. It was first published in 1891 in Ghent.</p><hr>
+            <p class="text-black-50 mb-0">The novel centers on the Noli-El fili duology's main character Crisostomo Ibarra, now returning for vengeance as "Simoun". El fili's dark theme departs dramatically from the previous novel's hopeful and romantic atmosphere, signifying Ibarra's resort to solving his country's issues through violent means, after his previous attempt at reforming the country's system have made no effect and seemed impossible with the corrupt attitude of the Spaniards towards the Filipinos.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="../assets/img/miulti.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Mi último adiós</h4>
+                <p class="mb-0 text-white-50">Mi Último Adiós (English; “My Last Farewell”) is a poem written by Philippine national hero, Dr. José Rizal, on the eve of his execution by firing squad on December 30, 1896. The piece was one of the last notes he wrote before his death. Another that he had written was found in his shoe, but because the text was illegible, its contents remain a mystery.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="../assets/img/filipi.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">A la juventud filipina</h4>
+                <p class="mb-0 text-white-50">A la juventud filipina is a poem written in Spanish by Filipino writer and patriot José Rizal, first presented in 1879 in Manila, while he was studying at the University of Santo Tomas.</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<router-outlet></router-outlet>
